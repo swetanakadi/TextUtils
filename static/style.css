@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(84, 44, 110);
+    color: #fab3b3;
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+textarea{
+    width: 1014px; 
+    height: 156px;
+}
+.container{
+    margin-left: 45%;
+    margin-right: 30%;
+    text-align: left;
+}
+
+
+@media (max-width: 400px){
+    textarea{
+        width: 272px; 
+        height: 164px;
+    }
+}
+
+
